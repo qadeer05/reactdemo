@@ -1,0 +1,29 @@
+{
+  "name": "ReactDemo",
+  "version": "1.0.0",
+  "description": "React demo application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "babel": {
+    "presets": [
+      "es2015", "react"
+    ]
+  },
+  "keywords": [],
+  "author": "Qadeer Mohammed",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
